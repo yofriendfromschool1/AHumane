@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "AHumane — Free AI Humanizer",
+  "short_name": "AHumane",
+  "version": "1.0.0",
+  "description": "Humanize selected AI text with AHumane's free Pro humanizer, without switching tabs.",
+  "permissions": ["activeTab", "scripting", "storage", "contextMenus"],
+  "action": {
+    "default_title": "Humanize with AHumane",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}

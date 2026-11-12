@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AHumane</title>
+    <style>
+      :root { color-scheme: light; }
+      * { box-sizing: border-box; }
+      body { margin: 0; width: 320px; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; color: #020817; background: #fff; }
+      .head { display: flex; align-items: center; gap: 8px; padding: 16px; border-bottom: 1px solid #e5e7eb; }
+      .mark { width: 28px; height: 28px; border-radius: 8px; background: #2563eb; color: #fff; display: grid; place-items: center; font-weight: 700; }
+      .name { font-weight: 600; letter-spacing: -0.03em; }
+      .free { margin-left: auto; font-size: 10px; font-weight: 600; color: #047857; background: #ecfdf5; border-radius: 999px; padding: 4px 7px; }
+      .body { padding: 16px; }
+      h1 { font-size: 16px; margin: 0 0 6px; letter-spacing: -0.02em; }
+      p { font-size: 12px; line-height: 1.55; color: #64748b; margin: 0 0 12px; }
+      button { width: 100%; border: 0; border-radius: 8px; background: #2563eb; color: #fff; padding: 11px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+      button:hover { background: #1d4ed8; }
+      button:disabled { opacity: .6; cursor: wait; }
+      .status { margin-top: 9px; font-size: 11px; color: #b91c1c; min-height: 14px; }
+      .foot { display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; border-top: 1px solid #e5e7eb; font-size: 10px; color: #94a3b8; }
+      a { color: #2563eb; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <div class="mark">A</div>
+      <div class="name">AHumane</div>
+      <div class="free">PRO · FREE</div>
+    </div>
+    <div class="body">
+      <h1>Humanize your selection</h1>
+      <p>Select text on any page, then open it in the free Pro humanizer. No account, no word cap.</p>
+      <button id="go" type="button">Humanize selection</button>
+      <div class="status" id="status" role="status"></div>
+    </div>
+    <div class="foot">
+      <span>Free forever</span>
+      <a href="#" id="options">Set app URL</a>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

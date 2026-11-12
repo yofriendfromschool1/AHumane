@@ -1,0 +1,68 @@
+{
+  "name": "ahumane",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AHumane \u2014 a free, self-hosted AI humanizer with local Ollama/Unsloth support.",
+  "scripts": {
+    "dev": "next dev -p 3210",
+    "build": "next build",
+    "start": "next start -p 3210",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "eval:humanizer": "tsx scripts/eval-humanizer.ts",
+    "make:extension": "node scripts/make-extension-zip.mjs"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "diff": "^8.0.2",
+    "geist": "^1.5.1",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.468.0",
+    "mammoth": "^1.9.0",
+    "next": "16.4.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.51.0",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/diff": "^7.0.0",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "16.4.6",
+    "jsdom": "^26.0.0",
+    "playwright-core": "1.65.0",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-humanizer",
+    "local-ai",
+    "ollama",
+    "unsloth",
+    "nextjs",
+    "writing-tools"
+  ],
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,5 @@
+FROM ./models/ahumane-gguf/unsloth.Q4_K_M.gguf
+PARAMETER temperature 0.9
+PARAMETER top_p 0.92
+PARAMETER num_ctx 8192
+SYSTEM "You are a human editor. Preserve every fact, name, number, and quotation. Return only the rewritten text."
