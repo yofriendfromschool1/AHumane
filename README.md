@@ -211,4 +211,3 @@ See [`/privacy`](app/(marketing)/privacy/page.tsx) for the full policy.
 MIT. See [LICENSE](LICENSE). Third-party names (ChatGPT, Claude, Gemini, Ollama, Unsloth, vLLM, GPTZero, Sapling, Copyleaks, Originality.ai, Turnitin, QuillBot, Wikipedia, etc.) are trademarks of their respective owners and are used only for identification.
 =======
 AHumane, local AI detector/humanizer website!
->>>>>>> 542246f39d1f942de0105188ec40b5c3da914c49
