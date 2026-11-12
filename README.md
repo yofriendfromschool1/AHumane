@@ -1,5 +1,5 @@
 # AHumane
-
+https://ahumane.netlify.app/
 A free, self-hosted AI humanizer and writing studio. Rewrite AI-assisted drafts into natural prose, check them with a transparent detector, scan for copied passages, and keep every fact in place.
 
 AHumane is an independent project. It is not affiliated with, endorsed by, or built from any other humanizer's code, prompts, or assets.
