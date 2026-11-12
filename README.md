@@ -1,4 +1,5 @@
 # AHumane
+<<<<<<< HEAD
 
 A free, self-hosted AI humanizer and writing studio. Rewrite AI-assisted drafts into natural prose, check them with a transparent detector, scan for copied passages, and keep every fact in place.
 
@@ -209,3 +210,6 @@ See [`/privacy`](app/(marketing)/privacy/page.tsx) for the full policy.
 ## License
 
 MIT. See [LICENSE](LICENSE). Third-party names (ChatGPT, Claude, Gemini, Ollama, Unsloth, vLLM, GPTZero, Sapling, Copyleaks, Originality.ai, Turnitin, QuillBot, Wikipedia, etc.) are trademarks of their respective owners and are used only for identification.
+=======
+AHumane, local AI detector/humanizer website!
+>>>>>>> 542246f39d1f942de0105188ec40b5c3da914c49
